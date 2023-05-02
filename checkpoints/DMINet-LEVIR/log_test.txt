@@ -1,0 +1,283 @@
+acc: 0.92479 miou: 0.46254 mf1: 0.48075 mrecall: 0.49970 mprecision: 0.47549 iou_0: 0.92479 iou_1: 0.00028 F1_0: 0.96092 F1_1: 0.00057 precision_0: 0.92555 precision_1: 0.02544 recall_0: 0.99912 recall_1: 0.00029 
+
+================ (Sun Apr 30 15:13:13 2023) ================
+gpu_ids: [0] project_name: DMINet-LEVIR print_models: False num_workers: 8 dataset: CDDataset data_name: LEVIR batch_size: 8 split: test img_size: 256 n_class: 2 net_G: DMINet checkpoint_name: best_ckpt.pt checkpoint_dir: /content/gdrive/MyDrive/Courses/CS_5824_AML/Project1/checkpoints/DMINet-LEVIR vis_dir: /content/gdrive/MyDrive/Courses/CS_5824_AML/Project1/vis/DMINet-LEVIR ================ (Sun Apr 30 15:14:39 2023) ================
+gpu_ids: [0] project_name: DMINet-LEVIR print_models: False num_workers: 8 dataset: CDDataset data_name: LEVIR batch_size: 8 split: test img_size: 256 n_class: 2 net_G: DMINet checkpoint_name: best_ckpt.pt checkpoint_dir: /content/gdrive/MyDrive/Courses/CS_5824_AML/Project1/checkpoints/DMINet-LEVIR vis_dir: /content/gdrive/MyDrive/Courses/CS_5824_AML/Project1/vis/DMINet-LEVIR loading last checkpoint...
+Eval Historical_best_acc = 0.4913 (at epoch 0)
+
+Begin evaluation...
+Is_training: False. [1,15],  running_mf1: 0.48878
+acc: 0.92479 miou: 0.46254 mf1: 0.48075 mrecall: 0.49970 mprecision: 0.47549 iou_0: 0.92479 iou_1: 0.00028 F1_0: 0.96092 F1_1: 0.00057 precision_0: 0.92555 precision_1: 0.02544 recall_0: 0.99912 recall_1: 0.00029 
+
+================ (Sun Apr 30 15:26:52 2023) ================
+gpu_ids: [0] project_name: DMINet-LEVIR checkpoint_root: /content/gdrive/MyDrive/Courses/CS_5824_AML/Project1/checkpoints num_workers: 8 dataset: CDDataset data_name: LEVIR batch_size: 8 split: train split_val: val img_size: 256 n_class: 2 net_G: DMINet loss: ce optimizer: sgd lr: 0.01 max_epochs: 100 lr_policy: linear lr_decay_iters: 100 beta1: 0.5 beta2: 0.999 checkpoint_dir: /content/gdrive/MyDrive/Courses/CS_5824_AML/Project1/checkpoints/DMINet-LEVIR vis_dir: /content/gdrive/MyDrive/Courses/CS_5824_AML/Project1/vis/DMINet-LEVIR loading last checkpoint...
+Eval Historical_best_acc = 0.4913 (at epoch 0)
+
+Begin evaluation...
+Is_training: False. [1,15],  running_mf1: 0.48878
+acc: 0.92479 miou: 0.46254 mf1: 0.48075 mrecall: 0.49970 mprecision: 0.47549 iou_0: 0.92479 iou_1: 0.00028 F1_0: 0.96092 F1_1: 0.00057 precision_0: 0.92555 precision_1: 0.02544 recall_0: 0.99912 recall_1: 0.00029 
+
+================ (Sun Apr 30 15:27:35 2023) ================
+gpu_ids: [0] project_name: DMINet-LEVIR checkpoint_root: /content/gdrive/MyDrive/Courses/CS_5824_AML/Project1/checkpoints num_workers: 8 dataset: CDDataset data_name: LEVIR batch_size: 8 split: train split_val: val img_size: 256 n_class: 2 net_G: DMINet loss: ce optimizer: sgd lr: 0.01 max_epochs: 100 lr_policy: linear lr_decay_iters: 100 beta1: 0.5 beta2: 0.999 checkpoint_dir: /content/gdrive/MyDrive/Courses/CS_5824_AML/Project1/checkpoints/DMINet-LEVIR vis_dir: /content/gdrive/MyDrive/Courses/CS_5824_AML/Project1/vis/DMINet-LEVIR loading last checkpoint...
+Eval Historical_best_acc = 0.4913 (at epoch 0)
+
+Begin evaluation...
+Is_training: False. [1,15],  running_mf1: 0.48878
+acc: 0.92479 miou: 0.46254 mf1: 0.48075 mrecall: 0.49970 mprecision: 0.47549 iou_0: 0.92479 iou_1: 0.00028 F1_0: 0.96092 F1_1: 0.00057 precision_0: 0.92555 precision_1: 0.02544 recall_0: 0.99912 recall_1: 0.00029 
+
+================ (Sun Apr 30 15:34:22 2023) ================
+gpu_ids: [0] project_name: DMINet-LEVIR checkpoint_root: /content/gdrive/MyDrive/Courses/CS_5824_AML/Project1/checkpoints num_workers: 8 dataset: CDDataset data_name: LEVIR batch_size: 8 split: train split_val: val img_size: 256 n_class: 2 net_G: DMINet loss: ce optimizer: sgd lr: 0.01 max_epochs: 100 lr_policy: linear lr_decay_iters: 100 beta1: 0.5 beta2: 0.999 checkpoint_dir: /content/gdrive/MyDrive/Courses/CS_5824_AML/Project1/checkpoints/DMINet-LEVIR vis_dir: /content/gdrive/MyDrive/Courses/CS_5824_AML/Project1/vis/DMINet-LEVIR loading last checkpoint...
+Eval Historical_best_acc = 0.4913 (at epoch 0)
+
+Begin evaluation...
+Is_training: False. [1,15],  running_mf1: 0.48878
+acc: 0.92479 miou: 0.46254 mf1: 0.48075 mrecall: 0.49970 mprecision: 0.47549 iou_0: 0.92479 iou_1: 0.00028 F1_0: 0.96092 F1_1: 0.00057 precision_0: 0.92555 precision_1: 0.02544 recall_0: 0.99912 recall_1: 0.00029 
+
+================ (Sun Apr 30 15:35:06 2023) ================
+gpu_ids: [0] project_name: DMINet-LEVIR print_models: False num_workers: 8 dataset: CDDataset data_name: LEVIR batch_size: 8 split: test img_size: 256 n_class: 2 net_G: DMINet checkpoint_name: best_ckpt.pt checkpoint_dir: /content/gdrive/MyDrive/Courses/CS_5824_AML/Project1/checkpoints/DMINet-LEVIR vis_dir: /content/gdrive/MyDrive/Courses/CS_5824_AML/Project1/vis/DMINet-LEVIR loading last checkpoint...
+Eval Historical_best_acc = 0.4913 (at epoch 0)
+
+Begin evaluation...
+Is_training: False. [1,15],  running_mf1: 0.48878
+acc: 0.92479 miou: 0.46254 mf1: 0.48075 mrecall: 0.49970 mprecision: 0.47549 iou_0: 0.92479 iou_1: 0.00028 F1_0: 0.96092 F1_1: 0.00057 precision_0: 0.92555 precision_1: 0.02544 recall_0: 0.99912 recall_1: 0.00029 
+
+================ (Sun Apr 30 15:59:53 2023) ================
+gpu_ids: [0] project_name: DMINet-LEVIR print_models: False num_workers: 8 dataset: CDDataset data_name: LEVIR batch_size: 8 split: test img_size: 256 n_class: 2 net_G: DMINet checkpoint_name: best_ckpt.pt checkpoint_dir: /content/gdrive/MyDrive/Courses/CS_5824_AML/Project1/checkpoints/DMINet-LEVIR vis_dir: /content/gdrive/MyDrive/Courses/CS_5824_AML/Project1/vis/DMINet-LEVIR loading last checkpoint...
+Eval Historical_best_acc = 0.4913 (at epoch 0)
+
+Begin evaluation...
+Is_training: False. [1,15],  running_mf1: 0.48878
+acc: 0.92479 miou: 0.46254 mf1: 0.48075 mrecall: 0.49970 mprecision: 0.47549 iou_0: 0.92479 iou_1: 0.00028 F1_0: 0.96092 F1_1: 0.00057 precision_0: 0.92555 precision_1: 0.02544 recall_0: 0.99912 recall_1: 0.00029 
+
+================ (Sun Apr 30 16:15:26 2023) ================
+gpu_ids: [0] project_name: DMINet-LEVIR checkpoint_root: /content/gdrive/MyDrive/Courses/CS_5824_AML/Project1/checkpoints num_workers: 8 dataset: CDDataset data_name: LEVIR batch_size: 8 split: train split_val: val img_size: 256 n_class: 2 net_G: DMINet loss: ce optimizer: sgd lr: 0.01 max_epochs: 100 lr_policy: linear lr_decay_iters: 100 beta1: 0.5 beta2: 0.999 checkpoint_dir: /content/gdrive/MyDrive/Courses/CS_5824_AML/Project1/checkpoints/DMINet-LEVIR vis_dir: /content/gdrive/MyDrive/Courses/CS_5824_AML/Project1/vis/DMINet-LEVIR loading last checkpoint...
+Eval Historical_best_acc = 0.4913 (at epoch 0)
+
+Begin evaluation...
+Is_training: False. [1,15],  running_mf1: 0.48878
+acc: 0.92479 miou: 0.46254 mf1: 0.48075 mrecall: 0.49970 mprecision: 0.47549 iou_0: 0.92479 iou_1: 0.00028 F1_0: 0.96092 F1_1: 0.00057 precision_0: 0.92555 precision_1: 0.02544 recall_0: 0.99912 recall_1: 0.00029 
+
+================ (Sun Apr 30 16:20:18 2023) ================
+gpu_ids: [0] project_name: DMINet-LEVIR checkpoint_root: /content/gdrive/MyDrive/Courses/CS_5824_AML/Project1/checkpoints num_workers: 8 dataset: CDDataset data_name: LEVIR batch_size: 8 split: train split_val: val img_size: 256 n_class: 2 net_G: DMINet loss: ce optimizer: sgd lr: 0.01 max_epochs: 100 lr_policy: linear lr_decay_iters: 100 beta1: 0.5 beta2: 0.999 checkpoint_dir: /content/gdrive/MyDrive/Courses/CS_5824_AML/Project1/checkpoints/DMINet-LEVIR vis_dir: /content/gdrive/MyDrive/Courses/CS_5824_AML/Project1/vis/DMINet-LEVIR loading last checkpoint...
+Eval Historical_best_acc = 0.4913 (at epoch 0)
+
+Begin evaluation...
+Is_training: False. [1,15],  running_mf1: 0.48878
+acc: 0.92479 miou: 0.46254 mf1: 0.48075 mrecall: 0.49970 mprecision: 0.47549 iou_0: 0.92479 iou_1: 0.00028 F1_0: 0.96092 F1_1: 0.00057 precision_0: 0.92555 precision_1: 0.02544 recall_0: 0.99912 recall_1: 0.00029 
+
+================ (Sun Apr 30 16:24:39 2023) ================
+gpu_ids: [0] project_name: DMINet-LEVIR checkpoint_root: /content/gdrive/MyDrive/Courses/CS_5824_AML/Project1/checkpoints num_workers: 8 dataset: CDDataset data_name: LEVIR batch_size: 8 split: train split_val: val img_size: 256 n_class: 2 net_G: DMINet loss: ce optimizer: sgd lr: 0.01 max_epochs: 100 lr_policy: linear lr_decay_iters: 100 beta1: 0.5 beta2: 0.999 checkpoint_dir: /content/gdrive/MyDrive/Courses/CS_5824_AML/Project1/checkpoints/DMINet-LEVIR vis_dir: /content/gdrive/MyDrive/Courses/CS_5824_AML/Project1/vis/DMINet-LEVIR loading last checkpoint...
+Eval Historical_best_acc = 0.4913 (at epoch 0)
+
+Begin evaluation...
+Is_training: False. [1,15],  running_mf1: 0.48878
+acc: 0.92479 miou: 0.46254 mf1: 0.48075 mrecall: 0.49970 mprecision: 0.47549 iou_0: 0.92479 iou_1: 0.00028 F1_0: 0.96092 F1_1: 0.00057 precision_0: 0.92555 precision_1: 0.02544 recall_0: 0.99912 recall_1: 0.00029 
+
+================ (Sun Apr 30 16:28:36 2023) ================
+gpu_ids: [0] project_name: DMINet-LEVIR checkpoint_root: /content/gdrive/MyDrive/Courses/CS_5824_AML/Project1/checkpoints num_workers: 8 dataset: CDDataset data_name: LEVIR batch_size: 8 split: train split_val: val img_size: 256 n_class: 2 net_G: DMINet loss: ce optimizer: sgd lr: 0.01 max_epochs: 100 lr_policy: linear lr_decay_iters: 100 beta1: 0.5 beta2: 0.999 checkpoint_dir: /content/gdrive/MyDrive/Courses/CS_5824_AML/Project1/checkpoints/DMINet-LEVIR vis_dir: /content/gdrive/MyDrive/Courses/CS_5824_AML/Project1/vis/DMINet-LEVIR loading last checkpoint...
+Eval Historical_best_acc = 0.4913 (at epoch 0)
+
+Begin evaluation...
+Is_training: False. [1,15],  running_mf1: 0.48878
+acc: 0.92479 miou: 0.46254 mf1: 0.48075 mrecall: 0.49970 mprecision: 0.47549 iou_0: 0.92479 iou_1: 0.00028 F1_0: 0.96092 F1_1: 0.00057 precision_0: 0.92555 precision_1: 0.02544 recall_0: 0.99912 recall_1: 0.00029 
+
+================ (Sun Apr 30 19:12:06 2023) ================
+gpu_ids: [0] project_name: DMINet-LEVIR checkpoint_root: /content/gdrive/MyDrive/Courses/CS_5824_AML/Project1/checkpoints num_workers: 8 dataset: CDDataset data_name: LEVIR batch_size: 8 split: train split_val: val img_size: 256 n_class: 2 net_G: DMINet loss: ce optimizer: sgd lr: 0.01 max_epochs: 100 lr_policy: linear lr_decay_iters: 100 beta1: 0.5 beta2: 0.999 checkpoint_dir: /content/gdrive/MyDrive/Courses/CS_5824_AML/Project1/checkpoints/DMINet-LEVIR vis_dir: /content/gdrive/MyDrive/Courses/CS_5824_AML/Project1/vis/DMINet-LEVIR loading last checkpoint...
+Eval Historical_best_acc = 0.4913 (at epoch 0)
+
+Begin evaluation...
+Is_training: False. [1,15],  running_mf1: 0.48878
+acc: 0.92479 miou: 0.46254 mf1: 0.48075 mrecall: 0.49970 mprecision: 0.47549 iou_0: 0.92479 iou_1: 0.00028 F1_0: 0.96092 F1_1: 0.00057 precision_0: 0.92555 precision_1: 0.02544 recall_0: 0.99912 recall_1: 0.00029 
+
+================ (Sun Apr 30 19:13:47 2023) ================
+gpu_ids: [0] project_name: DMINet-LEVIR checkpoint_root: /content/gdrive/MyDrive/Courses/CS_5824_AML/Project1/checkpoints num_workers: 8 dataset: CDDataset data_name: LEVIR batch_size: 8 split: train split_val: val img_size: 256 n_class: 2 net_G: DMINet loss: ce optimizer: sgd lr: 0.01 max_epochs: 100 lr_policy: linear lr_decay_iters: 100 beta1: 0.5 beta2: 0.999 checkpoint_dir: /content/gdrive/MyDrive/Courses/CS_5824_AML/Project1/checkpoints/DMINet-LEVIR vis_dir: /content/gdrive/MyDrive/Courses/CS_5824_AML/Project1/vis/DMINet-LEVIR loading last checkpoint...
+Eval Historical_best_acc = 0.4913 (at epoch 0)
+
+Begin evaluation...
+Is_training: False. [1,15],  running_mf1: 0.48878
+acc: 0.92479 miou: 0.46254 mf1: 0.48075 mrecall: 0.49970 mprecision: 0.47549 iou_0: 0.92479 iou_1: 0.00028 F1_0: 0.96092 F1_1: 0.00057 precision_0: 0.92555 precision_1: 0.02544 recall_0: 0.99912 recall_1: 0.00029 
+
+================ (Sun Apr 30 19:15:47 2023) ================
+gpu_ids: [0] project_name: DMINet-LEVIR checkpoint_root: /content/gdrive/MyDrive/Courses/CS_5824_AML/Project1/checkpoints num_workers: 8 dataset: CDDataset data_name: LEVIR batch_size: 8 split: train split_val: val img_size: 256 n_class: 2 net_G: DMINet loss: ce optimizer: sgd lr: 0.01 max_epochs: 100 lr_policy: linear lr_decay_iters: 100 beta1: 0.5 beta2: 0.999 checkpoint_dir: /content/gdrive/MyDrive/Courses/CS_5824_AML/Project1/checkpoints/DMINet-LEVIR vis_dir: /content/gdrive/MyDrive/Courses/CS_5824_AML/Project1/vis/DMINet-LEVIR loading last checkpoint...
+Eval Historical_best_acc = 0.4913 (at epoch 0)
+
+Begin evaluation...
+Is_training: False. [1,15],  running_mf1: 0.48878
+acc: 0.92479 miou: 0.46254 mf1: 0.48075 mrecall: 0.49970 mprecision: 0.47549 iou_0: 0.92479 iou_1: 0.00028 F1_0: 0.96092 F1_1: 0.00057 precision_0: 0.92555 precision_1: 0.02544 recall_0: 0.99912 recall_1: 0.00029 
+
+================ (Sun Apr 30 22:26:38 2023) ================
+gpu_ids: [0] project_name: DMINet-LEVIR print_models: False num_workers: 8 dataset: CDDataset data_name: LEVIR batch_size: 8 split: test img_size: 256 n_class: 2 net_G: DMINet checkpoint_name: best_ckpt.pt checkpoint_dir: /content/gdrive/MyDrive/Courses/CS_5824_AML/Project1/checkpoints/DMINet-LEVIR vis_dir: /content/gdrive/MyDrive/Courses/CS_5824_AML/Project1/vis/DMINet-LEVIR loading last checkpoint...
+Eval Historical_best_acc = 0.7927 (at epoch 37)
+
+Begin evaluation...
+Is_training: False. [1,15],  running_mf1: 0.71993
+acc: 0.94104 miou: 0.68635 mf1: 0.78694 mrecall: 0.78822 mprecision: 0.78568 iou_0: 0.93824 iou_1: 0.43446 F1_0: 0.96814 F1_1: 0.60574 precision_0: 0.96851 precision_1: 0.60284 recall_0: 0.96776 recall_1: 0.60868 
+
+Begin evaluation...
+Is_training: False. [1,15],  running_mf1: 0.71993
+acc: 0.94104 miou: 0.68635 mf1: 0.78694 mrecall: 0.78822 mprecision: 0.78568 iou_0: 0.93824 iou_1: 0.43446 F1_0: 0.96814 F1_1: 0.60574 precision_0: 0.96851 precision_1: 0.60284 recall_0: 0.96776 recall_1: 0.60868 
+
+================ (Sun Apr 30 22:29:00 2023) ================
+gpu_ids: [0] project_name: DMINet-LEVIR print_models: False num_workers: 8 dataset: CDDataset data_name: LEVIR batch_size: 16 split: test img_size: 256 n_class: 2 net_G: DMINet checkpoint_name: best_ckpt.pt checkpoint_dir: /content/gdrive/MyDrive/Courses/CS_5824_AML/Project1/checkpoints/DMINet-LEVIR vis_dir: /content/gdrive/MyDrive/Courses/CS_5824_AML/Project1/vis/DMINet-LEVIR loading last checkpoint...
+Eval Historical_best_acc = 0.7927 (at epoch 37)
+
+Begin evaluation...
+Is_training: False. [1,8],  running_mf1: 0.85262
+acc: 0.94104 miou: 0.68635 mf1: 0.78694 mrecall: 0.78822 mprecision: 0.78568 iou_0: 0.93824 iou_1: 0.43446 F1_0: 0.96814 F1_1: 0.60574 precision_0: 0.96851 precision_1: 0.60284 recall_0: 0.96776 recall_1: 0.60868 
+
+Begin evaluation...
+Is_training: False. [1,8],  running_mf1: 0.85262
+acc: 0.94104 miou: 0.68635 mf1: 0.78694 mrecall: 0.78822 mprecision: 0.78568 iou_0: 0.93824 iou_1: 0.43446 F1_0: 0.96814 F1_1: 0.60574 precision_0: 0.96851 precision_1: 0.60284 recall_0: 0.96776 recall_1: 0.60868 
+
+================ (Sun Apr 30 22:29:49 2023) ================
+gpu_ids: [0] project_name: DMINet-LEVIR print_models: False num_workers: 8 dataset: CDDataset data_name: LEVIR batch_size: 16 split: test img_size: 256 n_class: 2 net_G: DMINet checkpoint_name: best_ckpt.pt checkpoint_dir: /content/gdrive/MyDrive/Courses/CS_5824_AML/Project1/checkpoints/DMINet-LEVIR vis_dir: /content/gdrive/MyDrive/Courses/CS_5824_AML/Project1/vis/DMINet-LEVIR loading last checkpoint...
+Eval Historical_best_acc = 0.7927 (at epoch 37)
+
+Begin evaluation...
+Is_training: False. [1,8],  running_mf1: 0.85262
+acc: 0.94104 miou: 0.68635 mf1: 0.78694 mrecall: 0.78822 mprecision: 0.78568 iou_0: 0.93824 iou_1: 0.43446 F1_0: 0.96814 F1_1: 0.60574 precision_0: 0.96851 precision_1: 0.60284 recall_0: 0.96776 recall_1: 0.60868 
+
+Begin evaluation...
+Is_training: False. [1,8],  running_mf1: 0.85262
+acc: 0.94104 miou: 0.68635 mf1: 0.78694 mrecall: 0.78822 mprecision: 0.78568 iou_0: 0.93824 iou_1: 0.43446 F1_0: 0.96814 F1_1: 0.60574 precision_0: 0.96851 precision_1: 0.60284 recall_0: 0.96776 recall_1: 0.60868 
+
+Begin evaluation...
+Is_training: False. [1,8],  running_mf1: 0.85262
+acc: 0.94104 miou: 0.68635 mf1: 0.78694 mrecall: 0.78822 mprecision: 0.78568 iou_0: 0.93824 iou_1: 0.43446 F1_0: 0.96814 F1_1: 0.60574 precision_0: 0.96851 precision_1: 0.60284 recall_0: 0.96776 recall_1: 0.60868 
+
+Begin evaluation...
+Is_training: False. [1,8],  running_mf1: 0.85262
+acc: 0.94104 miou: 0.68635 mf1: 0.78694 mrecall: 0.78822 mprecision: 0.78568 iou_0: 0.93824 iou_1: 0.43446 F1_0: 0.96814 F1_1: 0.60574 precision_0: 0.96851 precision_1: 0.60284 recall_0: 0.96776 recall_1: 0.60868 
+
+Begin evaluation...
+Is_training: False. [1,8],  running_mf1: 0.85262
+acc: 0.94104 miou: 0.68635 mf1: 0.78694 mrecall: 0.78822 mprecision: 0.78568 iou_0: 0.93824 iou_1: 0.43446 F1_0: 0.96814 F1_1: 0.60574 precision_0: 0.96851 precision_1: 0.60284 recall_0: 0.96776 recall_1: 0.60868 
+
+Begin evaluation...
+Is_training: False. [1,8],  running_mf1: 0.85262
+acc: 0.94104 miou: 0.68635 mf1: 0.78694 mrecall: 0.78822 mprecision: 0.78568 iou_0: 0.93824 iou_1: 0.43446 F1_0: 0.96814 F1_1: 0.60574 precision_0: 0.96851 precision_1: 0.60284 recall_0: 0.96776 recall_1: 0.60868 
+
+Begin evaluation...
+Is_training: False. [1,8],  running_mf1: 0.85262
+acc: 0.94104 miou: 0.68635 mf1: 0.78694 mrecall: 0.78822 mprecision: 0.78568 iou_0: 0.93824 iou_1: 0.43446 F1_0: 0.96814 F1_1: 0.60574 precision_0: 0.96851 precision_1: 0.60284 recall_0: 0.96776 recall_1: 0.60868 
+
+Begin evaluation...
+Is_training: False. [1,8],  running_mf1: 0.85262
+acc: 0.94104 miou: 0.68635 mf1: 0.78694 mrecall: 0.78822 mprecision: 0.78568 iou_0: 0.93824 iou_1: 0.43446 F1_0: 0.96814 F1_1: 0.60574 precision_0: 0.96851 precision_1: 0.60284 recall_0: 0.96776 recall_1: 0.60868 
+
+Begin evaluation...
+Is_training: False. [1,8],  running_mf1: 0.85262
+acc: 0.94104 miou: 0.68635 mf1: 0.78694 mrecall: 0.78822 mprecision: 0.78568 iou_0: 0.93824 iou_1: 0.43446 F1_0: 0.96814 F1_1: 0.60574 precision_0: 0.96851 precision_1: 0.60284 recall_0: 0.96776 recall_1: 0.60868 
+
+Begin evaluation...
+Is_training: False. [1,8],  running_mf1: 0.85262
+acc: 0.94104 miou: 0.68635 mf1: 0.78694 mrecall: 0.78822 mprecision: 0.78568 iou_0: 0.93824 iou_1: 0.43446 F1_0: 0.96814 F1_1: 0.60574 precision_0: 0.96851 precision_1: 0.60284 recall_0: 0.96776 recall_1: 0.60868 
+
+================ (Sun Apr 30 22:32:45 2023) ================
+gpu_ids: [0] project_name: DMINet-LEVIR checkpoint_root: /content/gdrive/MyDrive/Courses/CS_5824_AML/Project1/checkpoints num_workers: 8 dataset: CDDataset data_name: LEVIR batch_size: 16 split: train split_val: val img_size: 256 n_class: 2 net_G: DMINet loss: ce optimizer: sgd lr: 0.01 max_epochs: 100 lr_policy: linear lr_decay_iters: 100 beta1: 0.5 beta2: 0.999 checkpoint_dir: /content/gdrive/MyDrive/Courses/CS_5824_AML/Project1/checkpoints/DMINet-LEVIR vis_dir: /content/gdrive/MyDrive/Courses/CS_5824_AML/Project1/vis/DMINet-LEVIR loading last checkpoint...
+Eval Historical_best_acc = 0.7927 (at epoch 37)
+
+Begin evaluation...
+Is_training: False. [1,8],  running_mf1: 0.85262
+acc: 0.94104 miou: 0.68635 mf1: 0.78694 mrecall: 0.78822 mprecision: 0.78568 iou_0: 0.93824 iou_1: 0.43446 F1_0: 0.96814 F1_1: 0.60574 precision_0: 0.96851 precision_1: 0.60284 recall_0: 0.96776 recall_1: 0.60868 
+
+Begin evaluation...
+Is_training: False. [1,8],  running_mf1: 0.85262
+acc: 0.94104 miou: 0.68635 mf1: 0.78694 mrecall: 0.78822 mprecision: 0.78568 iou_0: 0.93824 iou_1: 0.43446 F1_0: 0.96814 F1_1: 0.60574 precision_0: 0.96851 precision_1: 0.60284 recall_0: 0.96776 recall_1: 0.60868 
+
+Begin evaluation...
+Is_training: False. [1,8],  running_mf1: 0.85262
+acc: 0.94104 miou: 0.68635 mf1: 0.78694 mrecall: 0.78822 mprecision: 0.78568 iou_0: 0.93824 iou_1: 0.43446 F1_0: 0.96814 F1_1: 0.60574 precision_0: 0.96851 precision_1: 0.60284 recall_0: 0.96776 recall_1: 0.60868 
+
+Begin evaluation...
+Is_training: False. [1,8],  running_mf1: 0.85262
+acc: 0.94104 miou: 0.68635 mf1: 0.78694 mrecall: 0.78822 mprecision: 0.78568 iou_0: 0.93824 iou_1: 0.43446 F1_0: 0.96814 F1_1: 0.60574 precision_0: 0.96851 precision_1: 0.60284 recall_0: 0.96776 recall_1: 0.60868 
+
+Begin evaluation...
+Is_training: False. [1,8],  running_mf1: 0.85262
+acc: 0.94104 miou: 0.68635 mf1: 0.78694 mrecall: 0.78822 mprecision: 0.78568 iou_0: 0.93824 iou_1: 0.43446 F1_0: 0.96814 F1_1: 0.60574 precision_0: 0.96851 precision_1: 0.60284 recall_0: 0.96776 recall_1: 0.60868 
+
+Begin evaluation...
+Is_training: False. [1,8],  running_mf1: 0.85262
+acc: 0.94104 miou: 0.68635 mf1: 0.78694 mrecall: 0.78822 mprecision: 0.78568 iou_0: 0.93824 iou_1: 0.43446 F1_0: 0.96814 F1_1: 0.60574 precision_0: 0.96851 precision_1: 0.60284 recall_0: 0.96776 recall_1: 0.60868 
+
+Begin evaluation...
+Is_training: False. [1,8],  running_mf1: 0.85262
+acc: 0.94104 miou: 0.68635 mf1: 0.78694 mrecall: 0.78822 mprecision: 0.78568 iou_0: 0.93824 iou_1: 0.43446 F1_0: 0.96814 F1_1: 0.60574 precision_0: 0.96851 precision_1: 0.60284 recall_0: 0.96776 recall_1: 0.60868 
+
+Begin evaluation...
+Is_training: False. [1,8],  running_mf1: 0.85262
+acc: 0.94104 miou: 0.68635 mf1: 0.78694 mrecall: 0.78822 mprecision: 0.78568 iou_0: 0.93824 iou_1: 0.43446 F1_0: 0.96814 F1_1: 0.60574 precision_0: 0.96851 precision_1: 0.60284 recall_0: 0.96776 recall_1: 0.60868 
+
+Begin evaluation...
+Is_training: False. [1,8],  running_mf1: 0.85262
+acc: 0.94104 miou: 0.68635 mf1: 0.78694 mrecall: 0.78822 mprecision: 0.78568 iou_0: 0.93824 iou_1: 0.43446 F1_0: 0.96814 F1_1: 0.60574 precision_0: 0.96851 precision_1: 0.60284 recall_0: 0.96776 recall_1: 0.60868 
+
+Begin evaluation...
+Is_training: False. [1,8],  running_mf1: 0.85262
+acc: 0.94104 miou: 0.68635 mf1: 0.78694 mrecall: 0.78822 mprecision: 0.78568 iou_0: 0.93824 iou_1: 0.43446 F1_0: 0.96814 F1_1: 0.60574 precision_0: 0.96851 precision_1: 0.60284 recall_0: 0.96776 recall_1: 0.60868 
+
+================ (Mon May  1 00:17:49 2023) ================
+gpu_ids: [0] project_name: DMINet-LEVIR print_models: False num_workers: 8 dataset: CDDataset data_name: LEVIR batch_size: 16 split: test img_size: 256 n_class: 2 net_G: DMINet checkpoint_name: best_ckpt.pt checkpoint_dir: /content/gdrive/MyDrive/Courses/CS_5824_AML/Project1/checkpoints/DMINet-LEVIR vis_dir: /content/gdrive/MyDrive/Courses/CS_5824_AML/Project1/vis/DMINet-LEVIR loading last checkpoint...
+Eval Historical_best_acc = 0.7161 (at epoch 1)
+
+Begin evaluation...
+Is_training: False. [1,8],  running_mf1: 0.78408
+acc: 0.94013 miou: 0.61805 mf1: 0.71346 mrecall: 0.66454 mprecision: 0.82505 iou_0: 0.93857 iou_1: 0.29753 F1_0: 0.96831 F1_1: 0.45860 precision_0: 0.94910 precision_1: 0.70100 recall_0: 0.98831 recall_1: 0.34077 
+
+================ (Mon May  1 00:20:42 2023) ================
+gpu_ids: [0] project_name: DMINet-LEVIR print_models: False num_workers: 8 dataset: CDDataset data_name: LEVIR batch_size: 16 split: test img_size: 256 n_class: 2 net_G: DMINet checkpoint_name: best_ckpt.pt checkpoint_dir: /content/gdrive/MyDrive/Courses/CS_5824_AML/Project1/checkpoints/DMINet-LEVIR vis_dir: /content/gdrive/MyDrive/Courses/CS_5824_AML/Project1/vis/DMINet-LEVIR loading last checkpoint...
+Eval Historical_best_acc = 0.7161 (at epoch 1)
+
+Begin evaluation...
+Is_training: False. [1,8],  running_mf1: 0.78408
+acc: 0.94013 miou: 0.61805 mf1: 0.71346 mrecall: 0.66454 mprecision: 0.82505 iou_0: 0.93857 iou_1: 0.29753 F1_0: 0.96831 F1_1: 0.45860 precision_0: 0.94910 precision_1: 0.70100 recall_0: 0.98831 recall_1: 0.34077 
+
+================ (Mon May  1 01:42:42 2023) ================
+gpu_ids: [0] project_name: DMINet-LEVIR print_models: False num_workers: 8 dataset: CDDataset data_name: LEVIR batch_size: 16 split: test img_size: 256 n_class: 2 net_G: DMINet checkpoint_name: best_ckpt.pt checkpoint_dir: /content/gdrive/MyDrive/Courses/CS_5824_AML/Project1/checkpoints/DMINet-LEVIR vis_dir: /content/gdrive/MyDrive/Courses/CS_5824_AML/Project1/vis/DMINet-LEVIR loading last checkpoint...
+Eval Historical_best_acc = 0.8390 (at epoch 47)
+
+Begin evaluation...
+Is_training: False. [1,22],  running_mf1: 0.74809
+acc: 0.97150 miou: 0.67703 mf1: 0.76961 mrecall: 0.71426 mprecision: 0.87062 iou_0: 0.97099 iou_1: 0.38306 F1_0: 0.98528 F1_1: 0.55394 precision_0: 0.97640 precision_1: 0.76485 recall_0: 0.99433 recall_1: 0.43420 
+
+================ (Mon May  1 02:51:55 2023) ================
+gpu_ids: [0] project_name: DMINet-LEVIR print_models: False num_workers: 8 dataset: CDDataset data_name: LEVIR batch_size: 16 split: test img_size: 256 n_class: 2 net_G: DMINet checkpoint_name: best_ckpt.pt checkpoint_dir: /content/gdrive/MyDrive/Courses/CS_5824_AML/Project1/checkpoints/DMINet-LEVIR vis_dir: /content/gdrive/MyDrive/Courses/CS_5824_AML/Project1/vis/DMINet-LEVIR loading last checkpoint...
+Eval Historical_best_acc = 0.8140 (at epoch 48)
+
+Begin evaluation...
+Is_training: False. [1,8],  running_mf1: 0.72728
+acc: 0.96757 miou: 0.71869 mf1: 0.81160 mrecall: 0.77762 mprecision: 0.85675 iou_0: 0.96661 iou_1: 0.47077 F1_0: 0.98302 F1_1: 0.64017 precision_0: 0.97699 precision_1: 0.73651 recall_0: 0.98913 recall_1: 0.56612 
+
+================ (Mon May  1 03:09:54 2023) ================
+gpu_ids: [0] project_name: DMINet-LEVIR print_models: False num_workers: 8 dataset: CDDataset data_name: LEVIR batch_size: 16 split: test img_size: 256 n_class: 2 net_G: DMINet checkpoint_name: best_ckpt.pt checkpoint_dir: /content/gdrive/MyDrive/Courses/CS_5824_AML/Project1/checkpoints/DMINet-LEVIR vis_dir: /content/gdrive/MyDrive/Courses/CS_5824_AML/Project1/vis/DMINet-LEVIR loading last checkpoint...
+Eval Historical_best_acc = 0.6888 (at epoch 4)
+
+Begin evaluation...
+Is_training: False. [1,8],  running_mf1: 0.56687
+acc: 0.95648 miou: 0.61363 mf1: 0.70221 mrecall: 0.65453 mprecision: 0.80646 iou_0: 0.95576 iou_1: 0.27149 F1_0: 0.97738 F1_1: 0.42704 precision_0: 0.96438 precision_1: 0.64854 recall_0: 0.99074 recall_1: 0.31832 
+
+================ (Mon May  1 03:23:42 2023) ================
+gpu_ids: [0] project_name: DMINet-LEVIR print_models: False num_workers: 8 dataset: CDDataset data_name: LEVIR batch_size: 16 split: test img_size: 256 n_class: 2 net_G: DMINet checkpoint_name: best_ckpt.pt checkpoint_dir: /content/gdrive/MyDrive/Courses/CS_5824_AML/Project1/checkpoints/DMINet-LEVIR vis_dir: /content/gdrive/MyDrive/Courses/CS_5824_AML/Project1/vis/DMINet-LEVIR loading last checkpoint...
+Eval Historical_best_acc = 0.7586 (at epoch 4)
+
+Begin evaluation...
+Is_training: False. [1,22],  running_mf1: 0.71773
+acc: 0.96140 miou: 0.60733 mf1: 0.69244 mrecall: 0.65532 mprecision: 0.75823 iou_0: 0.96089 iou_1: 0.25378 F1_0: 0.98006 F1_1: 0.40482 precision_0: 0.97169 precision_1: 0.54477 recall_0: 0.98857 recall_1: 0.32208 
+
+================ (Mon May  1 03:25:34 2023) ================
+gpu_ids: [0] project_name: DMINet-LEVIR print_models: False num_workers: 8 dataset: CDDataset data_name: LEVIR batch_size: 16 split: test img_size: 256 n_class: 2 net_G: DMINet checkpoint_name: best_ckpt.pt checkpoint_dir: /content/gdrive/MyDrive/Courses/CS_5824_AML/Project1/checkpoints/DMINet-LEVIR vis_dir: /content/gdrive/MyDrive/Courses/CS_5824_AML/Project1/vis/DMINet-LEVIR loading last checkpoint...
+Eval Historical_best_acc = 0.7586 (at epoch 4)
+
+Begin evaluation...
+Is_training: False. [1,22],  running_mf1: 0.71773
+acc: 0.96140 miou: 0.60733 mf1: 0.69244 mrecall: 0.65532 mprecision: 0.75823 iou_0: 0.96089 iou_1: 0.25378 F1_0: 0.98006 F1_1: 0.40482 precision_0: 0.97169 precision_1: 0.54477 recall_0: 0.98857 recall_1: 0.32208 
+
+================ (Mon May  1 03:36:01 2023) ================
+gpu_ids: [0] project_name: DMINet-LEVIR print_models: False num_workers: 8 dataset: CDDataset data_name: LEVIR batch_size: 16 split: test img_size: 256 n_class: 2 net_G: DMINet checkpoint_name: best_ckpt.pt checkpoint_dir: /content/gdrive/MyDrive/Courses/CS_5824_AML/Project1/checkpoints/DMINet-LEVIR vis_dir: /content/gdrive/MyDrive/Courses/CS_5824_AML/Project1/vis/DMINet-LEVIR loading last checkpoint...
+Eval Historical_best_acc = 0.7491 (at epoch 3)
+
+Begin evaluation...
+Is_training: False. [1,8],  running_mf1: 0.81358
+acc: 0.93068 miou: 0.65756 mf1: 0.76054 mrecall: 0.77388 mprecision: 0.74876 iou_0: 0.92750 iou_1: 0.38762 F1_0: 0.96238 F1_1: 0.55869 precision_0: 0.96671 precision_1: 0.53080 recall_0: 0.95809 recall_1: 0.58967 
+
