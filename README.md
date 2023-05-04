@@ -1,5 +1,5 @@
 # DeepChange
-# Reference Paper and code
+# Reference paper and code
 Change Detection on Bi-temporal Remote Sensing Images using Dual-branch Multi-level Inter-temporal Network (TGARS 2023) [[paper](https://ieeexplore.ieee.org/document/10034787) and [code](https://github.com/ZhengJianwei2/DMINet)]
 # 1. Dataset
 - https://drive.google.com/drive/folders/1k4BRtPK9ZgyCWDVMI2BZCTxorsSSh-Bi?usp=sharing
